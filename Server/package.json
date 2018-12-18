@@ -1,0 +1,18 @@
+{
+  "name": "wanderer",
+  "version": "1.0.0",
+  "description": "Wanderer server using Epress and Sequelize",
+  "scripts": {
+    "start": "nodemon ./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^4.16.4",
+    "sequelize": "^4.41.2",
+    "sequelize-cli": "^5.4.0",
+    "sqlite3": "^4.0.4"
+  }
+}
